@@ -8,6 +8,13 @@
 		</title>
 	</head>
 	<body>
-		
+		<header>
+			<h1>
+				<a href="<?php echo home_url(); ?>"><?php bloginfo('name') ?></a>
+			</h1>
+		</header>
+		<footer>
+			<small>&copy;<?php bloginfo('name') ?>. This WordPress theme developed by <a href="https://github.com/rockhopper-penguin" target="_blank">Rockhopper-Penguin</a>.</small>
+		</footer>
 	</body>
 </html>
