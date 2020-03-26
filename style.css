@@ -8,5 +8,46 @@ Author URI: https://github.com/rockhopper-penguin
 */
 
 a {
-    text-decoration: none;
+	text-decoration: none;
+}
+
+body {
+	display: flex;
+	flex-flow: column;
+	min-height: 100vh;
+	font-family: 'Yu Gothic', 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+#main {
+	flex: 1;
+	padding: 10px;
+}
+
+/*ヘッダー＆フッター共通*/
+header, footer {
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+
+header h1 a, footer small a {
+	color: white;
+}
+
+/*ヘッダー*/
+header h1 {
+	margin: 0;
+}
+
+header a:hover {
+	color: #e53170;
+}
+
+/*フッター*/
+footer {
+	text-align: center;
+}
+
+footer small a {
+	text-decoration-line: underline;
 }
