@@ -6,3 +6,7 @@ Description: WordPress practice theme.
 Author: Rockhopper-Penguin
 Author URI: https://github.com/rockhopper-penguin
 */
+
+a {
+    text-decoration: none;
+}
