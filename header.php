@@ -12,6 +12,6 @@
 	<body <?php body_class(); ?>>
 		<header>
 			<h1>
-				<a href="<?php echo home_url(); ?>"><?php bloginfo('name') ?></a>
+				<a href="<?php echo home_url(); ?>" class="animate__animated animate__flipInX"><?php bloginfo('name') ?></a>
 			</h1>
 		</header>
